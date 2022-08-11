@@ -1,6 +1,6 @@
 const webDevProjects =[
   {
-    image:'%PUBLIC_URL%/project/WebDev/Quiz-App/home.png',
+    image:'/project/WebDev/Quiz-App/home.png',
     title:'Full Stack Quiz Application',
     text:'Created a full stack web application using quizapi.io . User can create account and login to take quiz for mulitple subject. Score of each test will be stored in the database. All the subject and questions are fetched from quizapi.io.',
     techStack:['Reactjs','Expressjs','Nodejs','PostgreSQL','Postman'],

@@ -5,10 +5,11 @@ import {useState} from 'react';
 const ProjectCard = (props)=>{
   const {image,title,text,deployed,deployLink,githubLink,techStack,screenshots} = props;
 
+
   const screenshotsComponent = screenshots.map((ss,i)=>{
     return (
-              <a href={ss} target="_blank">
-                <img src={ss} style={{width:'45%',height:'230px',borderRadius:5,border:'1px solid black',margin:'10px'}} key={i} />
+              <a href={process.env.PUBLIC_URL+ss} target="_blank"  rel="noreferrer" key={i}>
+                <img src={process.env.PUBLIC_URL+ss} alt="ss" style={{width:'45%',height:'230px',borderRadius:5,border:'1px solid black',margin:'10px'}} key={i} />
               </a>
            );
   })
@@ -22,7 +23,7 @@ const ProjectCard = (props)=>{
   return (
     <div style={{display:'inline-block'}}>
       <Card className="animate__animated animate__pulse animate__repeat" style={{ maxWidth:'19rem',margin:10,backgroundColor:'#21325E',boxShadow: "4px 10px 4px #9E9E9E", textAlign: 'left'}} >
-        <Card.Img style={{ height: '12rem'}} variant="top"  src={image} />
+        <Card.Img style={{ height: '12rem'}} variant="top"  src={process.env.PUBLIC_URL +image} />
         <Card.Body>
           <Card.Title style={{color: '#f8f9fa',textDecoration:'underline',marginBottom:'20px'}}>{title}</Card.Title>
           <Button variant="outline-light" onClick={() => setShow(true)}>Show Details</Button>
