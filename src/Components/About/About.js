@@ -14,16 +14,17 @@ const About  = () =>{
             <Col sm>
 							<Card style={{ minHeight:360}} className="my-1">
 								<Card.Title style={{textDecoration:'underline'}}>Introduction</Card.Title>
-								<Card.Text className="mb-1 text-muted">
-									Hi, I am Ankit Sharma. I am software developer with 1.5 years of experience in IT industry.
-								</Card.Text>
-								<Card.Title style={{textDecoration:'underline'}}>Experience & Academics</Card.Title>
 								<Card.Text className="mb-2 text-muted">
 									I am an aspiring developer who loves to code and develop things. I have made multiple project based on MERN technology stack.
 								</Card.Text>
 								<Card.Text className="mb-2 text-muted">
-						     	I am looking for an opportunity where I can hone my skills and use my knowledge to contribute to the growth of the organzation.
-						    </Card.Text>
+									I am looking for an opportunity where I can hone my skills and use my knowledge to contribute to the growth of the organzation.
+								</Card.Text>
+								<Card.Title style={{textDecoration:'underline'}}>Experience & Academics</Card.Title>
+								<Card.Text className="mb-1 text-muted">
+									I have 1.5+ years of experience in IT industry. I have worked on 3rd Integration system which made API call to ERP to perform business functionality. 
+								</Card.Text>
+
 							</Card>
 						</Col>
 
