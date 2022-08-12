@@ -2,7 +2,7 @@ const web3Projects =[
   {
     image:'/project/Web3/KickStartWeb3/Campaign_details.png',
     title:'Kick start (Crowd Funding)',
-    text:'Created a web3 project based on Nextjs and Ethereum. In this people can start a campaign to raise fund for the project. All the tranctions done in the campaign are stored in blockchain and needs approval from majority of contributor before any funds can be used from the campaign funds.',
+    text:'Created a web3 project based on Nextjs and Ethereum. In this people can start a campaign to raise funds for the project. All the transactions done in the campaign are stored in the blockchain and needs approval from a majority of contributors before any funds can be used from the campaign funds.',
     techStack:['Nextjs','SmartContract','Nodejs','Ethereum','Metamask','Mocha'],
     deployed:false,
     deployLink:'',
@@ -12,7 +12,7 @@ const web3Projects =[
   {
     image:'/project/Web3/LotteryDapp/LotteryDapp.png',
     title:'Lottery Dapp',
-    text:'Created a decentralized Lottery Application based on Reactjs and Ethereum. It can be used for conducting a real life lottery game where people can pay some amount of ether to take part in the game and when the manager of the lottery pick a random winner all the amount goes to winners ethereum wallet.',
+    text:"Created a decentralized Lottery Application based on Reactjs and Ethereum. It can be used for conducting a real-life lottery game where people can pay some amount of ether to take part in the game and when the manager of the lottery picks a random winner all the amount goes to winner's Ethereum wallet.",
     techStack:['Reactjs','SmartContract','Nodejs','Etherum','Metamask','Mocha'],
     deployed:true,
     deployLink:'https://sharmadotankit.github.io/LotteryDap/',

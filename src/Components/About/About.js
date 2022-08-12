@@ -15,14 +15,14 @@ const About  = () =>{
 							<Card style={{ minHeight:360}} className="my-1">
 								<Card.Title style={{textDecoration:'underline'}}>Introduction</Card.Title>
 								<Card.Text className="mb-2 text-muted">
-									I am an aspiring developer who loves to code and develop things. I have made multiple project based on MERN technology stack.
+								I am an aspiring developer who loves to code and develop things. I have done multiple projects based on the MERN technology stack.
 								</Card.Text>
 								<Card.Text className="mb-2 text-muted">
-									I am looking for an opportunity where I can hone my skills and use my knowledge to contribute to the growth of the organzation.
+								I am looking for an opportunity to hone my skills and use my knowledge to contribute to the organization's growth of the organzation.
 								</Card.Text>
 								<Card.Title style={{textDecoration:'underline'}}>Experience & Academics</Card.Title>
 								<Card.Text className="mb-1 text-muted">
-									I have 1.5+ years of experience in IT industry. I have worked on 3rd Integration system which made API call to ERP to perform business functionality. 
+									I have 1.8+ years of experience in the IT industry. I have worked on the 3rd Integration system which made an API call to ERP to perform business functionality.
 								</Card.Text>
 
 							</Card>
@@ -32,7 +32,7 @@ const About  = () =>{
 							<Card style={{ minHeight:360}} className="my-1 ">
 								<Card.Title style={{textDecoration:'underline'}}>Skills</Card.Title>
 								<Card.Text className="mb-2 text-muted">
-								I have done development in the below mentioned technology :
+								I have done development in the below-mentioned technology :
 								</Card.Text>
 
 								<Card.Text className="mb-2 text-muted">

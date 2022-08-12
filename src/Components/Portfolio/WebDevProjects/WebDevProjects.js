@@ -2,7 +2,7 @@ const webDevProjects =[
   {
     image:'/project/WebDev/Quiz-App/home.png',
     title:'Full Stack Quiz Application',
-    text:'Created a full stack web application using quizapi.io . User can create account and login to take quiz for mulitple subject. Score of each test will be stored in the database. All the subject and questions are fetched from quizapi.io.',
+    text:'Created a full stack web application using quizapi.io. Users can create an account and log in to take quizzes for multiple subjects. A score of each test will be stored in the database. All the subjects and questions are fetched from quizapi.io API.',
     techStack:['Reactjs','Expressjs','Nodejs','PostgreSQL','Postman'],
     deployed:false,
     deployLink:'',
@@ -12,7 +12,7 @@ const webDevProjects =[
   {
     image:'/project/WebDev/Face-Detection-App/home.png',
     title:'Face Detection Application',
-    text:'Created a full stack application for Face Detection using Clarifai API. User can created an account and login to the application and detect a face in a image. Also the number of time a user detects a face is visible in the home page.',
+    text:'Created a full stack application for Face Detection using Clarifai API. Users can create an account and log in to the application and detect a face in an image. Also, the number of times a user detects a face is visible on the home page.',
     techStack:['Reactjs','Expressjs','Nodejs','PostgreSQL','Postman'],
     deployed:false,
     deployLink:'',
