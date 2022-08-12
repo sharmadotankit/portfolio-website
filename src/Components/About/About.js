@@ -18,7 +18,7 @@ const About  = () =>{
 								I am an aspiring developer who loves to code and develop things. I have done multiple projects based on the MERN technology stack.
 								</Card.Text>
 								<Card.Text className="mb-2 text-muted">
-								I am looking for an opportunity to hone my skills and use my knowledge to contribute to the organization's growth of the organzation.
+								I am looking for an opportunity to hone my skills and use my knowledge to contribute to the organization's growth of the organization.
 								</Card.Text>
 								<Card.Title style={{textDecoration:'underline'}}>Experience & Academics</Card.Title>
 								<Card.Text className="mb-1 text-muted">
