@@ -21,14 +21,14 @@ const webDevProjects =[
   }
   ,
   {
-    image:'/project/WebDev/React-Digital-Clock/digital-clock.png',
-    title:'React Digital Clock',
-    text:'A simple frontend Reactjs Digital clock.',
-    techStack:['Reactjs'],
-    deployed:true,
-    deployLink:'https://sharmadotankit.github.io/React-Digital-Clock/',
-    githubLink:'https://github.com/sharmadotankit/React-Digital-Clock',
-    screenshots:['/project/WebDev/React-Digital-Clock/digital-clock.png']
+    image:'/project/WebDev/Weather-App/home.png',
+    title:'Full stack weather application',
+    text:'Created a full stack weather application from scratch.  Users can create an account and log in to the application and find the weather of any place they want. Each user has a profile page with user details.',
+    techStack:['Reactjs','Expressjs','Nodejs','PostgreSQL','Postman','Redux','JWT'],
+    deployed:false,
+    deployLink:'',
+    githubLink:'https://github.com/sharmadotankit/weather-app-frontend',
+    screenshots:['/project/WebDev/Weather-App/home.png','/project/WebDev/Weather-App/signin.png','/project/WebDev/Weather-App/register.png','/project/WebDev/Weather-App/profile.png','/project/WebDev/Weather-App/weather.png']
   }
 ];
 
